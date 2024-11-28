@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
 
-wrong_type = 'abc' + 123
+num = 123
+text = "abc"
+print(text + str(num))
